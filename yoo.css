@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: lightblue;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+.cont{
+    background: black;
+    height: 30vh;
+    width: 50%;
+    position: relative;
+}
+
+.cont span{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: white;
+    font-size: 60px;
+}
+
+
+
+.hide{
+    display: none;
+}

@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.bg{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.tet{
+    background-color: rgb(0, 0, 0);
+    height:70vh;
+    width: 30%;
+    border-radius: 10px;
+    border: 2px rgb(14,15,17) solid;
+    margin-right: 2%;
+}
+
+ .tet-1{
+    background-color: rgb(0, 0, 0);
+    height:70vh;
+    width: 30%;
+    border-radius: 10px;
+    border: 2px rgb(73,68,32) solid;
+    margin-right: 2%;
+}
+
+.container{
+    display: flex;
+    gap: 13px;
+    padding-left: -25%;
+    padding-top: 40px;      
+}
+
+.text{
+    margin-top: 40px;
+}
+
+button{
+    border-radius: 15px;
+    background-color: rgb(71, 71, 71);
+    padding: 10px;
+    border: 1px solid white;
+    color: white;
+    margin-right: 80px;
+    margin-top: 12px;
+    
+}
+
+.but{
+    border-radius: 15px;
+    background-color: rgba(255, 251, 0, 0.507);
+    padding: 10px;
+    border: 1px solid white;
+    color: yellow;
+    margin-right: 80px;
+    margin-top: 12px;
+}
+
+.why{
+    border-radius: 15px;
+    background-color: rgb(0, 26, 255);
+    padding: 10px;
+    border: 1px solid white;
+    color: rgba(255, 255, 255, 0.404);
+    margin-right: 80px;
+    margin-top: 12px;
+}
+
+h1{
+    text-align: left;
+    padding: 12px;
+}
+
+.hhhh{
+    text-align: center;
+    color: coral;
+    font-size: xx-large;
+    text-transform: uppercase;
+}
+
+.hot{
+    margin-top: -6%;
+    margin-left: -50%;
+}
+
+.anot{
+    border-radius: 5%;
+    margin: 2.5%;
+    background-color: rgb(43,43,51);
+    width: 95%;
+}
+
+.ptag{
+   margin-right: 45%;
+   text-transform: capitalize;
+}
+
+.nort{
+    border-radius: 5%;
+    margin: 2.5%;
+    background-color: rgb(250,197,117);
+    width: 95%;
+    color: black;
+}
+
+.how{
+    border-radius: 5%;
+    margin: 2.5%;
+    background-color: rgb(255,254,255);
+    width: 95%;
+    color: black;
+    border: 1px solid greenyellow;
+}
+

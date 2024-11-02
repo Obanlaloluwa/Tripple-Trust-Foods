@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.dag{
+    background-color: black;
+    height: 30%;
+    border: 2px solid green;
+    width: 30%;
+}
+
+.sam{
+    border: 2px solid blue;
+    margin-top: 30%;
+    color: whitesmoke;
+    border-right: 0;
+    border-left: 0;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.lol{
+    color: green;
+    transform: translate(70px,-160px);
+    padding: 1px;
+    text-transform: capitalize;
+}
+
+.pay{
+    color: wheat;
+    margin-top: 0%;
+    transform: translateY(148px);
+}
+
+.more{
+    color: wheat;
+    display: flex;
+    justify-content: right;
+    margin-top: -3%;
+    transform: translateY(140px);
+}
+
+span{
+    color: white;
+    display: flex;
+    justify-content: right;
+    margin-top: -50%;
+    font-size: 50px;
+}
+
+
+
+.hide{
+    display: none;
+}
