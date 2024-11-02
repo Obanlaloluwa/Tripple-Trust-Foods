@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.circle{
+    border-radius: 50%;
+    background-color: black;
+    color: red;
+}
+
+.hide{
+    display: none;
+}
+
+.now{
+    color: black;
+    font-size: 50px;
+    cursor: pointer;
+}
