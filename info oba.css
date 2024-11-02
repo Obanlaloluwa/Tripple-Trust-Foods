@@ -1,0 +1,180 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#info{
+    background-image: linear-gradient(rgb(0,0,0,0.2) ,rgba(0, 255, 34, 0.747)) , url(Images/play.JPG);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+a:hover{
+    background-color: brown;
+    padding: 20%;
+    text-decoration: underline;
+}
+
+a:active{
+    text-decoration: underline;
+    color: blue;
+    background-color:darkgray;
+}
+
+.noot{
+    float: left;
+    padding: 1%;
+    text-transform: uppercase;
+}
+
+.text p{
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-top:13.00%;
+    float: right;
+}
+
+.text p::selection{
+    background-color:yellow;
+    color: red;
+}
+
+.pot{
+    float: left;
+    width: 35%;
+    height: auto;
+    margin-top: 13.00%;
+    
+}
+
+
+ h1{
+    font-size: 50px; 
+    color: aliceblue;
+    margin-top: 3%;
+    text-transform: uppercase;
+    text-shadow: 2px 2px red;
+    
+}
+
+h1::selection{
+    background-color:yellow;
+    color: red;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between items*/
+}
+
+
+
+.gallery-item{
+    flex: 1 1 calc(33.333% - 20px); /* Adjust the width of each item*/
+    box-sizing: border-box;
+    text-align: center;
+
+    
+}
+
+.gallery-item img{
+    width: 100%;
+    height: auto;
+    
+}
+
+.gallery-item p{
+    margin-top: 10px;
+}
+
+.flot img{
+    float: right;
+    width: 35%;
+    height: 35%;
+    margin-top: 0%;
+    
+}
+.nappy p{
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-top:8%;
+    float: left;
+    padding: 8%;
+}
+
+.sign li{
+    padding: 0;
+    margin: 0;
+    float: left;
+    
+}
+
+.sign a{
+    color: black;
+    border: 5px solid rgb(17, 216, 17);
+    border-radius: 30px;
+}
+
+.sign a:hover{
+    background:none
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(11, 209, 235, 0.589);
+    text-align: right;
+    
+  }
+  
+li{
+    display: inline-block;
+    padding: 1%;
+
+}
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    padding: 14px ;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+  
+   .dropdown:hover .dropbtn li a:hover{
+    background-color: brown;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f5e5e5;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }

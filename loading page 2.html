@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loading</title>
+</head>
+<body>
+    <!----------------Styling the css--------------->
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: black;
+        }
+        .loading-circle{
+            width: 5%;
+            height: 10%;
+            border: 2px solid red;
+            border-top: 0;
+            border-radius: 50%;
+            animation: rotate 5s infinite ;
+            animation-delay: 0s;
+        }
+
+        @keyframes rotate {
+            0%{
+                transform: rotate(-180deg);
+            }
+            50%{
+                transform: rotate(350deg);
+            }
+            100%{
+                transform: rotate(-350deg);
+            }
+        }
+        
+    </style>
+    <!----------------Styling the html-------------->
+    <div class="loading-circle">
+        
+    </div>
+</body>
+</html>

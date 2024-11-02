@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <style>
+        body{
+            padding:0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        span{
+            width: 2%;
+            height: 4%;
+            background-color: pink;
+            border: 2px solid red;
+            border-radius: 50%;
+            animation: boy 2s infinite;
+            margin-right: 10px;
+        }
+
+        .one{
+            animation-delay: .1s;
+        }
+        .two{
+            animation-delay: .2s;
+        }
+        .three{
+            animation-delay: .4s;
+        }
+
+        @keyframes boy{
+            0%{
+                transform: scale(0);
+            }
+            50%{
+                transform: scale(1.1);
+            }
+            100%{
+                transform: scale(0);
+            }
+        }
+    </style>
+    <span class="one"></span>
+    <span class="two"></span>
+    <span class="three"></span>
+</body>
+</html>
